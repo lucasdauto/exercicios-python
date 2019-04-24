@@ -1,0 +1,80 @@
+exercícios de função
+Desenhar uma escadinha no console, usando console.log();
+Perguntar ao usuário o tamanho da escadinha. Exemplo de escadinha tamanho 5:
+#
+##
+###
+####
+#####
+EXTRA: perguntar ao usuário também qual o caracter (material) para construir a escadinha
+----------------------------------------------------------------------------------------------------------------------------
+Adivinhe o número.
+Criar um variável com um número entre 0 e 50;
+Criar um prompt para que o usuário tente adivinhar o número.
+Se ele acertou, então dar os parabéns e encerrar.
+Se for um número baixo, responder é maior
+Se for um número alto, responder que é menor.
+extra: Pesquisar código para gerar o número secreto aleatoriamente.
+----------------------------------------------------------------------------------------------------------------------------
+jogo da senha
+/*
+- Gerar 5 números aleatórios;
+- Concatenar os 5 números em uma string;
+Número aleatório: '14590'
+- Pedir para o usuário tentar descobrir sua senha (que é o número aleatório)
+- Se o usuário digitar um número no local correto, colocar um 'O';
+Senha: '14590'
+Input: '24607'
+Saída: ' O '
+- Se o usuário digitar um número que está no local errado, mas existe na string, colocar um '-';
+Senha: '14590'
+Input: '42607'
+Saída: '- '
+- Se o usuário digitar um número que está no local errado, e não existe na string, colocar um
+'X';
+Senha: '14590'
+
+Input: '42507'
+Saída: '-xOxx'
+- O usuário precisa acertar a senha por completo;
+- O usuário tem 10 tentativas de acerto;
+*/
+----------------------------------------------------------------------------------------------------------------------------
+inverter os caracteres de uma string
+- deve receber um parâmetro
+- usar um laço
+----------------------------------------------------------------------------------------------------------------------------
+Criar 3 funções
+- A primeira função recebe o nome e o conjunto de notas;
+- A segunda função diz qual é a média do aluno;
+- A terceira função diz se o aluno foi aprovado ou não, considerando que a média é 6 ;
+----------------------------------------------------------------------------------------------------------------------------
+Criar um programa que avalia uma proposta de empréstimo.
+O programa recebe: idade do cliente, quanto dinheiro ele quer emprestar, quanto ele ganha
+por mês.
+REGRAS para aceita o empréstimo:
+- Entre 22 e 55 anos;
+- Valor a partir de 1000 reais;
+- Valor não pode ultrapassar 15x o que ele recebe
+RESPONDER: ACEITO OU NÃO ACEITO
+EXTRA:
+- Perguntar também a quantidade de parcelas (3 a 20 vezes) e calcular juros de 8% ao mês
+(COMPOSTO)
+RESPONDER VALOR TOTAL DO EMPRESTIMO E VALOR Da PARCELA.
+----------------------------------------------------------------------------------------------------------------------------
+Crie duas listas no seu script, uma de 5 meninos e uma de 5 meninas
+ex:
+Como as festas juninas estão chegando, os meninos e meninas vão formar duplas para
+dançar quadrilha.
+
+Use o console.log para mostrar no console TODAS as duplas possíveis entre meninos e
+meninas.
+----------------------------------------------------------------------------------------------------------------------------
+Usar janelinhas de prompt para cadastrar um usuário, com nome, login, senha, data de
+nascimento,
+premium (booleano- dica usar confirm ao inves de prompt). Salvar esses dados em um objeto
+e imprimir
+no console.
+EXTRA:
+exibir também no console a idade do usuário no dia 08/03! Calculada a partir da data de
+nascimento.
